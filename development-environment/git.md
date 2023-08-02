@@ -56,7 +56,7 @@ ssh-keygen -t rsa -C meng.wang@simcom.com
 
 生成密钥后把本地目录下的 `ssh/id_rsa.pub` 文件内容复制到 Github 的 Settings -> SSH and GPG keys 然后 New SSH key，添加你的公钥信息。 
 
-![image-20230802111330759](E:/Items/self-taught-experience/imgs/image-20230802111330759.png)
+![image-20230802111330759](../imgs/image-20230802111330759.png)
 
 本地一旦公钥添加到服务器上，不能随便在本地生成公私钥，一旦生成就要更替你在服务器上旧的公钥。
 
